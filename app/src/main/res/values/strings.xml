@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Application1</string>
+    <string name="hello">おはよう</string>
+    <string name="text_underline"><u>底線文字:あたらしい</u></string>
+    <string name="text_symble">#$%ˊ＊　輸出符號字元測試)(</string>
+    <string name="text_new_line">TextView\n元件二</string>
+</resources>
