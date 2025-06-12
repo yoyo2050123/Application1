@@ -35,7 +35,8 @@
         android:layout_width="85dp"
         android:layout_height="43dp"
         android:text="左上"
-        app:layout_constraintBottom_toTopOf="@+id/button_next_01" />
+        app:layout_constraintBottom_toTopOf="@+id/button_next_01"
+        app:layout_constraintLeft_toRightOf="@+id/button_next_01"/>
 
     <Button
         android:id="@+id/button_right_up_01"
