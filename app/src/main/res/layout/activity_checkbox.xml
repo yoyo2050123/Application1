@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.有興趣的運動項目: "
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_margin="5dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="桌球"
+        android:layout_marginLeft="16dp"
+        android:button="@drawable/checkbox_checked_android"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="籃球"
+        android:layout_marginLeft="16dp"
+        android:button="@drawable/checkbox_checked_android"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="網球"
+        android:layout_marginLeft="16dp"
+        android:button="@drawable/checkbox_checked_android"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.喜歡的休閒活動: "
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_margin="5dp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="看電影"
+        android:layout_marginLeft="16dp"
+        android:button="@drawable/checkbox_checked_jpg"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="健身"
+        android:layout_marginLeft="16dp"
+        android:button="@drawable/checkbox_checked_jpg"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="逛街"
+        android:layout_marginLeft="16dp"
+        android:button="@drawable/checkbox_checked_jpg"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.喜歡的餐點項目: "
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_margin="5dp"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拉麵"
+        android:layout_marginLeft="16dp"
+        android:button="@drawable/checkbox_checked_transparent_png"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="炒飯"
+        android:layout_marginLeft="16dp"
+        android:button="@drawable/checkbox_checked_transparent_png"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="牛肉湯"
+        android:layout_marginLeft="16dp"
+        android:button="@drawable/checkbox_checked_transparent_png"
+        />
+</LinearLayout>

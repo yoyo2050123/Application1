@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/button_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="顯示目前時間" />
+
+    <Button
+        android:id="@+id/button_locale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="顯示目前語系"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/button_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="顯示目前溫度"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

@@ -10,39 +10,62 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="170dp"
-            android:layout_height="60dp"
-            android:background="#F68686"
-            android:text="1"
+            android:id="@+id/textView"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="#FBEE72"
+            android:text="一"
             android:textAlignment="center"
             android:textSize="24sp"
-
-
             />
 
         <TextView
-            android:layout_width="170dp"
-            android:layout_height="60dp"
-            android:background="#5277FF"
-            android:text="2"
+            android:id="@+id/textView2"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="#D38E1688"
+            android:text="二"
             android:textAlignment="center"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            />
+
     </LinearLayout>
 
     <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F00000"
+        android:gravity="center"
+        android:text="TextView元件練習"
+        android:textAlignment="center"
+         />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#5277FF"
+        android:text="Textview\n元件\n二"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView7"
         android:layout_width="100dp"
         android:layout_height="80dp"
-        android:text="@string/text_symble"
-        android:gravity="bottom|right"
         android:background="#97F66B"
+        android:gravity="bottom|right"
+        android:text="第三組Textview文字練習"
         android:textColor="#FA0707"
-        android:textStyle="italic"
-        />
+        android:textStyle="italic" />
+
     <TextView
+        android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text_underline"
         android:layout_gravity="right"
         android:background="#3AE4ED"
-        />
+        android:text="@string/text_symble" />
+
 </LinearLayout>

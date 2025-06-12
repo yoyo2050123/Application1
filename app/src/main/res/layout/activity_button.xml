@@ -17,6 +17,10 @@
         android:text="Button_02"
         android:textAllCaps="false"
         android:background="#838282"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
         />
     <Button
         android:layout_width="wrap_content"
@@ -24,5 +28,31 @@
         android:text="這是三號按鈕"
         android:textColor="#F07BAA"
         android:backgroundTint="#A00000"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="按鈕_04"
+        android:background="@drawable/button_blue"
+        android:layout_margin="5dp"
+        android:textColor="#FA0707"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按鈕_05"
+        android:layout_margin="5dp"
+        android:textSize="16dp"
+        android:background="@drawable/buttom_pressed"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按鈕六"
+        android:layout_margin="5dp"
+        android:textSize="16sp"
+        android:background="#618AF8"
+        android:textColor="@drawable/buttomtext_pressed_white"
+
         />
 </LinearLayout>

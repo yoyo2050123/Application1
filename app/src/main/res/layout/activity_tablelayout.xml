@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    >
+    <TableRow>
+        <TextView
+            android:id="@+id/textview1_1"
+            android:text="遊戲名稱"
+            android:textSize="16sp"
+            android:textColor="#6071F8"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:background="#11D944"
+            />
+
+        <TextView
+            android:id="@+id/textview1_2"
+            android:text="遊戲版本"
+            android:textSize="16sp"
+            android:textColor="#A61DE2"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:background="#DC901F"
+            />
+        <TextView
+            android:id="@+id/textview1_3"
+            android:text="手機系統版本"
+            android:textSize="16sp"
+            android:textColor="#1453C1"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:background="#11D944"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textview2_1"
+            android:text="渾沌與黑暗世界"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/textview2_2"
+            android:text="Version 1.6"
+            android:layout_margin="5dp"
+
+            />
+        <TextView
+            android:id="@+id/textview2_3"
+            android:text="Android 8.1版"
+            android:layout_margin="5dp"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textview3_1"
+            android:text="跑跑卡丁車"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/textview3_2"
+            android:text="version 2.88"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/textview3_3"
+            android:text="Android 12版"
+            android:layout_margin="5dp"
+
+            />
+
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textview4_1"
+            android:text="英雄聯盟"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/textview5_2"
+            android:text="version 2.8"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/textview5_3"
+            android:text="Android 10"
+            android:layout_margin="5dp"
+            />
+    </TableRow>
+    <Button
+        android:id="@+id/button_1"
+        android:text="選取遊戲"
+        />
+
+    <Button
+        android:id="@+id/button_2"
+        android:text="離開選單"
+        />
+
+    <TableRow>
+        <Button
+            android:id="@+id/button7_1"
+            android:text="加入選單"
+            />
+
+        <Button
+            android:id="@+id/button7_2"
+            android:text="編輯選單"
+            />
+
+        <Button
+            android:id="@+id/button7_3"
+            android:text="清除選單"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/imageview8_1"
+            android:src="@android:drawable/btn_star_big_on"
+            />
+        <ImageView
+            android:id="@+id/imageview8_2"
+            android:src="@android:drawable/btn_star_big_off"
+            />
+        <ImageView
+            android:id="@+id/imageview8_3"
+            android:src="@android:drawable/btn_dialog"
+            />
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imageview9"
+        android:src="@drawable/uncheck02_16"
+        android:scaleType="fitXY"
+        android:layout_height="30dp"
+
+        />
+    <TableRow
+        android:background="#000000"
+        >
+        <TextView
+            android:id="@+id/textview10_1"
+            android:text="死亡擱淺2"
+            android:layout_margin="2dp"
+            android:background="#FFFFFF"
+            />
+        <TextView
+            android:id="@+id/textview10_2"
+            android:text="version 2.8"
+            android:layout_margin="2dp"
+            android:background="#FFFFFF"
+            />
+        <TextView
+            android:id="@+id/textview10_3"
+            android:text="Android 10.3"
+            android:layout_margin="2dp"
+            android:background="#FFFFFF"
+            />
+    </TableRow>
+
+</TableLayout>
