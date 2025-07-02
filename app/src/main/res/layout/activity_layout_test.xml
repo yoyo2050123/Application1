@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 上方中央的標題文字 -->
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relativelayout 相對布局練習"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- 左下角按鈕 -->
+    <Button
+        android:id="@+id/buttonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按我"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+
+         />
+
+    <!-- 位於按鈕上方的文字輸入框 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextAccount"
+
+        android:layout_toEndOf="@+id/buttonClick" />
+
+    <EditText
+        android:id="@+id/editTextAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="拜託輸入帳號:"
+        android:layout_above="@id/buttonClick"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:inputType="text"
+        android:text=""
+        android:textColorHint="#FF0000" />
+</RelativeLayout>

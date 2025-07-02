@@ -1,0 +1,190 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_h_01"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_v_01"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_h_02"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="10dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_v_02"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="10dp"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_h_03"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="390dp"
+        />
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_v_03"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="65dp"
+        />
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:text="登入畫面"
+        android:textColor="#EC9D28"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView01"
+        android:layout_width="260dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/picture02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TextView01" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="帳號:"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+
+
+        app:layout_constraintStart_toStartOf="@+id/guideline_v_01"
+        app:layout_constraintTop_toBottomOf="@id/imageView01" />
+
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="請輸入帳號"
+        android:inputType="text"
+        app:layout_constraintBaseline_toBaselineOf="@id/textView5"
+
+        app:layout_constraintStart_toEndOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="18sp"
+        android:text="密碼:"
+        android:textColor="@color/black"
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/textView5"
+        app:layout_constraintStart_toStartOf="@+id/guideline_v_01"
+        app:layout_constraintTop_toBottomOf="@id/textView5"/>
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+
+
+        android:ems="10"
+        android:hint="請輸入密碼"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintBaseline_toBaselineOf="@id/textView6"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextText2">
+
+        <RadioButton
+            android:id="@+id/radioButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="學生" />
+
+        <RadioButton
+            android:id="@+id/radioButton02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="教師" />
+
+        <RadioButton
+            android:id="@+id/radioButton03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="員工" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="20dp"
+        android:background="#2196F3"
+        android:gravity="center"
+        android:text="登入"
+        android:textColor="#FFFFFF"
+
+        app:layout_constraintStart_toStartOf="@+id/guideline_v_03"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_h_03" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+
+        android:background="#2196F3"
+        android:text="註冊"
+
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/button01"
+        app:layout_constraintStart_toEndOf="@+id/button01" />
+</androidx.constraintlayout.widget.ConstraintLayout>
