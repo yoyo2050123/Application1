@@ -23,6 +23,9 @@
             android:exported="false" />
         <activity
             android:name=".Activity_Imageview_java"
+            android:exported="false"/>
+        <activity
+            android:name=".Activity_OnTouch_java"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
