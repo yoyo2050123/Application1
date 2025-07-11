@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_Textview_Java">
+
+    <TextView
+        android:id="@+id/textview_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="顯示文字:TextView1"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_02"
+        android:textColor="#000000"
+        android:text="顯示文字:TextView2"
+        android:textSize="24sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_03"
+        android:textColor="#000000"
+        android:text="顯示文字:TextView3"
+        android:textSize="24sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+
+
+</LinearLayout>
