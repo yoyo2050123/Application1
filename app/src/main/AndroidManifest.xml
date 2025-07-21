@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Application1"
         tools:targetApi="31">
         <activity
+            android:name=".Activity_CheckBox_Java"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_NumberKeyListener_Java"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_KeyListener_Java"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_OnTouch_java"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Edittext_Java"
+            android:exported="false" />
+        <activity
             android:name=".Activity_Textview_Java"
             android:exported="false" />
         <activity
@@ -23,9 +38,9 @@
             android:exported="false" />
         <activity
             android:name=".Activity_Imageview_java"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
-            android:name=".Activity_OnTouch_java"
+            android:name=".Activity_RadioButton_Java"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -31,40 +31,28 @@ public class Activity_OnTouch_java extends AppCompatActivity {
         textview_change_pic = findViewById(R.id.textview_change_pic);
         textview_change_scaletype = findViewById(R.id.textview_change_scaletype);
 
+        textview_change_pic.setText("手勢觸發的動作型態 : ");
+        textview_change_scaletype.setText("");
+
         textview_change_pic.setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    if (imageIndex == 2) {
-                        imageView_01.setImageResource(R.drawable.imageview_java_1);
-                        imageIndex = 1;
-                    } else {
-                        imageView_01.setImageResource(R.drawable.imageview_java_2);
-                        imageIndex = 2;
-                    }
+            public boolean onTouch(View v, MotionEvent motionEvent) {
+                if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
+                    textview_change_scaletype.setText("Action Dpwn 動作被觸發");
+                } else if  (motionEvent.getAction() == MotionEvent.ACTION_UP) {
+                    textview_change_scaletype.setText("Action UP 動作被觸發");
+                } else if  (motionEvent.getAction() == MotionEvent.ACTION_UP) {
+                    textview_change_scaletype.setText("Action UP 動作被觸發");
+                } else if  (motionEvent.getAction() == MotionEvent.ACTION_MOVE) {
+                    textview_change_scaletype.setText("Action MOVE 動作被觸發");
+                } else{
+                    textview_change_scaletype.setText("Action Code  - " +motionEvent.getAction());
                 }
 
                 return false;
             }
         });
-      textview_change_scaletype.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                i += 1;
-                textview_change_scaletype.setText("變更縮放模式 : " +scaleIndex);
-                if (scaleIndex == 2) {
-                    imageView_01.setScaleType(ImageView.ScaleType.FIT_CENTER);
-                    scaleIndex = 1;
-                }else  {
-                    imageView_01.setScaleType(ImageView.ScaleType.CENTER_CROP);
-                    scaleIndex = 2;
 
-
-                }
-
-            }
-
-      });
 
 
     }
